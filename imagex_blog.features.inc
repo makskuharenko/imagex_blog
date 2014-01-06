@@ -31,7 +31,7 @@ function imagex_blog_node_info() {
     'blog' => array(
       'name' => t('Blog'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Use <em>blogs</em> for writing and publishing blog article posts.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
