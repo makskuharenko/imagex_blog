@@ -123,6 +123,7 @@ function imagex_blog_panelizer_defaults() {
       'identifier' => '',
       'link' => TRUE,
       'context' => 'panelizer',
+      'format' => 'linux_events_short_date',
     );
     $pane->cache = array();
     $pane->style = array();
@@ -254,6 +255,7 @@ function imagex_blog_panelizer_defaults() {
       'identifier' => '',
       'link' => TRUE,
       'context' => 'panelizer',
+      'format' => 'linux_events_short_date',
     );
     $pane->cache = array();
     $pane->style = array();
